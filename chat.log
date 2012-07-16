@@ -1,0 +1,28 @@
+what is test driven development ?
+in test driven development, test drives the design of production code. you write test first, then write
+minimum production code to compile, then fail the test since implementation is not present, then do
+minimum to pass the test, refactor and then start over the cycle again
+
+TDD CYCLE
+=========
+write test => compile => fail the test => implement => pass the test => refactor => write test again
+
+
+it is a console application, so we output the welcome message on System.out.
+And it is difficult to monitor System.out => mock System.out => wrap System.out so that it can be mocked.
+
+
+I will explain mock to you.
+
+Our requirement is when application starts it should welcome the customer.
+We welcome the customer on System.out.
+
+How do you make sure the customer was welcomed using System.out ?
+
+
+
+
+
+
+
+
